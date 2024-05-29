@@ -133,3 +133,16 @@ To copy all the files and directories.. we use `**`
 Save configuration and updte README.MD file. The webhook will triger a new job
 
 ![Alt text](images/9.19.jpg)
+
+When we click on the new job and access the console output we should see the following at the end of the build information.
+
+```
+SSH: Transferred 25 file(s)
+Finished: SUCCESS
+```
+To make sure that the files in /mnt/apps have been updated, connect to the NFS server through a terminal and check README.MD file.
+
+```
+sudo cat /mnt/apps/README.md
+```
+![alt text](images/9.20.png)
