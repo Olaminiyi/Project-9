@@ -107,25 +107,29 @@ You will see that a new build has been launched automatically (by webhook) and y
 
 ![Alt text](images/9.15.PNG)
 
-6. Step 3 – Configure Jenkins to copy files to NFS server via SSH
+### Step 3 – Configure Jenkins to copy files to NFS server via SSH
 
-- Now we have our artifacts saved locally on Jenkins server, the next step is to copy them to our NFS server to /mnt/apps directory.
+Now we have our artifacts saved locally on Jenkins server, the next step is to copy them to our NFS server to `/mnt/apps`directory.
 
 Jenkins is a highly extendable application and there are 1400+ plugins available. We will need a plugin that is called “Publish Over SSH”.
 
-- Install “Publish Over SSH” plugin.
-  ![Alt text](images/9.16.PNG)
+Install “Publish Over SSH” plugin.
 
-7. Configure the job/project to copy artifacts over to NFS server.
-   On main dashboard select “Manage Jenkins” and choose “Configure System” menu item.
+![Alt text](images/9.16.PNG)
+
+Configure the job/project to copy artifacts over to NFS server.
+On main dashboard select `Manage Jenkins` and choose `Configure System` menu item.
 
 Scroll down to Publish over SSH plugin configuration section and configure it to be able to connect to your NFS server:
+
 ![Alt text](images/9.17.jpg)
 
-8. add post build action to "send build artifacts over ssh".
+Add post build action to `send build artifacts over ssh`.
 
-- to copy all the files and directories.. we use \*\*
-  ![Alt text](images/9.18.jpg)
+To copy all the files and directories.. we use `\*\*`
 
-9. Save configuration and updte README.MD file. The webhook will triger a new job
-   ![Alt text](images/9.19.jpg)
+![Alt text](images/9.18.jpg)
+
+Save configuration and updte README.MD file. The webhook will triger a new job
+
+![Alt text](images/9.19.jpg)
