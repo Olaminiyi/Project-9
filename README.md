@@ -126,7 +126,7 @@ Scroll down to Publish over SSH plugin configuration section and configure it to
 
 Add post build action to `send build artifacts over ssh`.
 
-To copy all the files and directories.. we use `\*\*`
+To copy all the files and directories.. we use `**`
 
 ![Alt text](images/9.18.jpg)
 
