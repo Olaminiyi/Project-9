@@ -57,8 +57,10 @@ By default `Jenkins` server uses TCP `port 8080` – open it by creating a new I
 
 Perform initial Jenkins setup.
    
-From your browser access **http://<Jenkins-Server-Public-IP-Address-or-Public-DNS-Name>:8080**
-
+From your browser access 
+```
+http://<Jenkins-Server-Public-IP-Address-or-Public-DNS-Name>:8080
+```
 You will be prompted to provide a default admin password
 
 ![Alt text](images/9.6.PNG)
