@@ -23,9 +23,9 @@ Create an AWS EC2 server based on Ubuntu Server 20.04 LTS and name it “Jenkins
 ![Alt text](images/9.1.PNG)
 
 Connect to the EC2 instance using this command
-
+```
 ssh -i <yourkey.pem> ec2-user@<public-ip-address>
-
+```
 Install JDK (since Jenkins is a Java-based application)
 ```
 sudo apt update
