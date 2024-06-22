@@ -18,7 +18,7 @@ Our 3 tier achitecture will look like this
 
 ### INSTALL AND CONFIGURE JENKINS SERVER
 
-Create an AWS EC2 server based on Ubuntu Server 20.04 LTS and name it “Jenkins”
+Create an AWS EC2 server based on Ubuntu Server 20.04 LTS and name it “Jenkins”.
 
 ![Alt text](images/9.1.PNG)
 
