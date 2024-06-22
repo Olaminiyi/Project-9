@@ -51,7 +51,7 @@ Make sure Jenkins is up and running
   
 ![Alt text](images/9.4.PNG)
 
-By default `Jenkins` server uses TCP `port 8080` – open it by creating a new Inbound Rule in your `EC2 Security Group`
+By default `Jenkins` server uses TCP `port 8080` – open it by creating a new Inbound Rule in your `EC2 Security Group`.
    
 ![Alt text](images/9.5.PNG)
 
