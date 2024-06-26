@@ -109,7 +109,7 @@ You will see that a new build has been launched automatically (by webhook) and y
 
 ![Alt text](images/9.15.PNG)
 
-### Step 3 – Configure Jenkins to copy files to NFS server via SSH
+### Step 3 – Configure Jenkins to copy files to NFS server via SSH.
 
 Now we have our artifacts saved locally on Jenkins server, the next step is to copy them to our NFS server to `/mnt/apps`directory.
 
