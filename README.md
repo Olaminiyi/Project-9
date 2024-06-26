@@ -61,7 +61,7 @@ From your browser access
 ```
 http://<Jenkins-Server-Public-IP-Address-or-Public-DNS-Name>:8080
 ```
-You will be prompted to provide a default admin password
+You will be prompted to provide a default admin password.
 
 ![Alt text](images/9.6.PNG)
 
